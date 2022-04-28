@@ -20,7 +20,7 @@ the commands we used for executing the job is as follows:
 	bin/hadoop jar *destination_to_the_jar_file* Map_Sql (name of class) *input_file_in_hdfs* *output_dir_in_hdfs* *DISCOUNT* *QUANTITY*
 	
 	-in our case:
-		bin/hadoop jar /mnt/c/Users/gpana/Desktop/map_sql.jar Map_Sql /gpanaretou/data/10mb/data/lineitem.tbl 10_mb_disc_0.03 0.03 50
+		bin/hadoop jar /mnt/c/Users/gpana/Desktop/Map_Sql.jar Map_Sql /gpanaretou/data/10mb/data/lineitem.tbl 10_mb_disc_0.03 0.03 50
 	
 	
 	- This command calls hadoop to execute a .JAR located a the destination /mnt/c/Users/gpana/Desktop/map_sql.jar
