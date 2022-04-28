@@ -1,19 +1,18 @@
 ## HOW TO BUILD JAR (optional)
 
-To BUILD the .JAR file, we created an IntelliJ project with MAVEN to help with better organising of dependencies. 
-Dependencies were added to the pom.xml, where we could easily install them for quick testing of our application.
-Once the .JAVA file was ready, we build the .JAR in intelliJ
-		- BUILD PROJECT
-		- BUILD ARTEFACTS
+To BUILD the .JAR file, we created an IntelliJ project with MAVEN to help with better organising of dependencies.\
+Dependencies were added to the pom.xml, where we could easily install them for quick testing of our application.\
+Once the .JAVA file was ready, we build the .JAR in intelliJ\
+		- BUILD PROJECT\
+		- BUILD ARTEFACTS\
 		- BUILD Map_Sql.jar
 
 ### ALTERNATIVE FOR BUILDING JAR. (easier)
 
-sudo apt install maven
-mvn clean install -> creates a .jar (less space from 70MB to 7kb, does not include dependencies)
+sudo apt install maven\
+mvn clean install -> creates a .jar (less space from 70MB to 7kb, does not include dependencies)\
 	- this method does not require intelliJ, only maven.
 
-	
 	
 the commands we used for executing the queries is the following:
 	
